@@ -8,9 +8,9 @@ Feature: validate email invite back
 		Given the user is on the landing page
 			And they type their email address into the invitation field
 			And they click the submit button
-		If the email is in  a valid format
+		When the email is in  a valid format
 			Then a visual cue appears indicating the email format is valid.
 			And the email is saved to the database
-		If the email is an invalid format
+		When the email is an invalid format
 			Then a visual cue appears indicating the email format is invalid
 			And the email is not saved to the database

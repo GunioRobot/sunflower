@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe InvitationsController do
 
+  before :each do
+    @invites = Factory :invitation
+  end
+
   def mock_invitation(stubs={})
     @mock_invitation ||= mock_model(Invitation, stubs).as_null_object
   end

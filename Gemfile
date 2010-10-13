@@ -28,8 +28,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # and rake tasks are available in development mode:
 
 group :development, :test do
-	gem 'rspec', '2.0.0.beta.18'
-	gem 'rspec-rails', '2.0.0.beta.18'
+	gem 'rspec', '2.0.0.beta.22'
+	gem 'rspec-rails', '2.0.0.beta.22'
 	gem 'factory_girl_rails', '1.0'
 	
 	gem 'cucumber'

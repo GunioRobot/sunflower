@@ -7,6 +7,5 @@ Feature: capture email
 
 		Given the user is on the landing page
 			And they type their email address into the invitation field
-		When they they click "invite me" button
+		When they they click "Invite Me" button
 		Then they get a popup thanking, and notifying them they will receive an invite.
-			And they receive an email notification

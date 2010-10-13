@@ -1,6 +1,7 @@
 require 'rubygems'
-require 'spork'
+#require 'spork'
 
+=begin
 Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However, 
   # if you change any configuration or code from libraries loaded here, you'll
@@ -24,7 +25,7 @@ end
 #   feel free to delete them.
 #
 
-
+=end
 
 
 # This file is copied to ~/spec when you run 'ruby script/generate rspec'

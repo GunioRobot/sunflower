@@ -44,7 +44,7 @@ class InvitationsController < ApplicationController
 
     respond_to do |format|
       if @invitation.save
-        format.html { redirect_to(@invitation, :notice => 'Invitation was successfully created.') }
+        format.html { redirect_to(@invitation, :notice => '.aaaaaand we\'re good! We\'ll send you an invite as soon as they\'ll become available.') }
         format.xml  { render :xml => @invitation, :status => :created, :location => @invitation }
       else
         format.html { render :action => "new" }

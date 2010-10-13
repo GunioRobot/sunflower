@@ -14,7 +14,7 @@ When /^they they click "([^"]*)" button$/ do |button|
 end
 
 Then /^they get a popup thanking, and notifying them they will receive an invite\.$/ do
-  pending # express the regexp above with the code you wish you had
+  pending # ".aaaaaand we're good! We'll send you an invite as soon as they'll become available."
 end
 
 Then /^they receive an email notification$/ do
