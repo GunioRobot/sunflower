@@ -10,7 +10,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-
+ 
 # Deploy with Capistrano
 # gem 'capistrano'
 
@@ -27,7 +27,24 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 
-group :development, :test do
+group :test  do
+	gem 'rspec', '2.0.0.beta.22'
+	gem 'rspec-rails', '2.0.0.beta.22'
+	gem 'factory_girl_rails', '1.0'
+	
+	gem 'cucumber'
+	gem 'cucumber-rails'
+
+	gem 'webrat'
+	gem 'capybara'
+  gem 'annotate-models', '1.0.4'
+
+	gem 'autotest'
+	gem 'autotest-growl'
+	#gem 'autotest-fsevent'
+end
+
+group :development  do
 	gem 'rspec', '2.0.0.beta.22'
 	gem 'rspec-rails', '2.0.0.beta.22'
 	gem 'factory_girl_rails', '1.0'
@@ -43,6 +60,5 @@ group :development, :test do
 	gem 'autotest-growl'
 	gem 'autotest-fsevent'
 end
-
 
 
