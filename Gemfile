@@ -39,9 +39,7 @@ group :test  do
 	gem 'capybara'
   gem 'annotate-models', '1.0.4'
 
-	gem 'autotest'
-	gem 'autotest-growl'
-	#gem 'autotest-fsevent'
+
 end
 
 group :development  do
@@ -56,9 +54,6 @@ group :development  do
 	gem 'capybara'
   gem 'annotate-models', '1.0.4'
 
-	gem 'autotest'
-	gem 'autotest-growl'
-	gem 'autotest-fsevent'
 end
 
 
