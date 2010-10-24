@@ -12,7 +12,7 @@
   <% end %>
 
   <div class="actions">
-	<%= f.label :email %><%= f.text_field :email %>
+	<%= f.label :email %><%= f.text_field :email, :class=> "required email" %>
     <%= f.submit "Invite Me" %>
   </div>
 <% end %>
