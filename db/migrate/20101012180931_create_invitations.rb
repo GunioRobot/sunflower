@@ -5,7 +5,7 @@ class CreateInvitations < ActiveRecord::Migration
       t.string        :promo_id
       t.boolean       :invited,   :default => false
       t.boolean       :used,      :default => false
-      
+
       t.timestamps
     end
   end
